@@ -1,0 +1,1 @@
+instalação do openssh-server e testar a conexão do servidor utilizando as chaves ssh pública e privada.

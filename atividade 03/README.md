@@ -1,0 +1,1 @@
+Um passo a passo de como configurar uma máquina virtual utilizando o virtualbox.
