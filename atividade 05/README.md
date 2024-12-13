@@ -1,0 +1,1 @@
+Criando uma imagem para executar no docker criado.
