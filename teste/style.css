@@ -1,0 +1,87 @@
+*{
+
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    background-color:#F5F5F5;
+    height: 100vh;
+    font-family:Helvetica, sans-serif;
+    margin-top:4rem;
+}
+
+.centro{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.centro a{
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 0.3rem;
+    border: 1px solid #babac7;
+    background-color: #E6E6FA;
+    color: black;
+    font-size: 14pt;
+    box-shadow: 1px 1px 1px gray;
+    font-weight: bold;
+}
+.tabelas{
+	
+	background-color:white;
+	width:60%;
+	height:80%;
+	border-radius:0.5rem;
+	padding:1rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#tabela{
+	
+	margin-top:2rem;
+	border-collapse:collapse;
+	width:100%;
+	
+}
+
+#tabela th{
+	
+	border:1px solid #babac7;
+	padding:1rem;
+	text-align:left;
+	background-color:#E6E6FA;
+	color:black;
+}
+
+#tabela td{
+	
+	border:1px solid #babac7;
+	padding:0.7rem;
+	
+}
+
+body .tabelas .cabecalho{
+	display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
